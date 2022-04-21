@@ -1,0 +1,23 @@
+{
+  "name": "kbhook",
+  "version": "1.0.0",
+  "description": "这是一个可以全局监听键盘按键事件的Node.js C++插件（只在Windows平台下可用），开始监听后无论对焦在系统运行中的那个程序上都可以捕获事件。",
+  "main": "kbevent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredZeng/catchKeyboardEvent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredZeng/catchKeyboardEvent/issues"
+  },
+  "homepage": "https://github.com/FredZeng/catchKeyboardEvent#readme",
+  "devDependencies": {
+    "electron": "^12.0.16",
+    "electron-rebuild": "^3.2.7"
+  }
+}
